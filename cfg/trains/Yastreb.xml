@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<Common>
+		<CouplingModule>ef-coupling</CouplingModule>
+		<CabineInVehicle>0</CabineInVehicle>
+
+		<!-- Зарядное давление, МПа -->
+		<ChargingPressure>0.5</ChargingPressure>
+		<!-- Начальное давление в ГР, МПа -->
+		<InitMainResPressure>0.9</InitMainResPressure>
+		<!-- Поезд без воздуха (1 - без воздуха, 0 - полностью заряженный) -->
+		<NoAir>0</NoAir>
+
+		<Title>Электропоезд "Ястреб"</Title>
+		<Description>Учебный электропоезд</Description>
+	</Common>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_head</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>1</IsOrientationForward>
+	</Vehicle>
+	
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_pant</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>1</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_motor</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>1</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_bat</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>1</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_middle1</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>1</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_middle2</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>0</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_bat</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>0</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_motor</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>0</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_pant</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>0</IsOrientationForward>
+	</Vehicle>
+
+	<Vehicle>
+		<Module>passcar</Module>
+		<ModuleConfig>yastreb_head</ModuleConfig>
+		<Count>1</Count>
+		<PayloadCoeff>1</PayloadCoeff>
+		<IsOrientationForward>0</IsOrientationForward>
+	</Vehicle>
+
+</Config>
